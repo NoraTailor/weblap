@@ -41,6 +41,8 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+
+
 /************\
   Basic set
 \************/
@@ -63,9 +65,9 @@ body {
 \************/
 
 header {
-  background-color:   #6200EA;
-  display:            inline-block;
-  width:              100%;
+  background-color:    #6200EA;
+  display:             inline-block;
+  width:               100%;
   padding-top:         1.25rem;
   padding-bottom:      1.25rem;
 }
@@ -126,7 +128,7 @@ nav {
 }
 
 
-section {
+.section {
     flex-direction:    column;
     order: 2;
   }
@@ -139,7 +141,7 @@ section {
 }
   
 
-h1 {
+h2 {
   background-color:    #6200EA;
   color:               white;
   padding:             1rem;
@@ -170,4 +172,9 @@ h1 {
 main {
   flex: 1;
   
+}
+
+.featured-blog {
+  background: url('roberto-nickson-5ui0tfMC5ts-unsplash.jpg') no-repeat;
+  background-size: cover;
 }
