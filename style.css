@@ -52,9 +52,18 @@ table {
 }
 
 body {
-   background-color:   #F4F3F5;
+  background-color:   #F4F3F5;
   font-family:        "Montserrat", sans-serif;
- 
+  max-width:          1600px;
+}
+
+.content {
+    margin-left:               15rem;
+    margin-right:              15rem;
+    display:                   flex;
+    flex-direction:            column;
+    max-height:                2120px;
+    flex-wrap:                 wrap;
 }
 
 
@@ -66,7 +75,6 @@ body {
 
 header {
   background-color:    #6200EA;
-  display:             inline-block;
   width:               100%;
   padding-top:         1.25rem;
   padding-bottom:      1.25rem;
@@ -74,12 +82,7 @@ header {
 
 
 .subscribe {
-  border-radius:     40%;
-  width:             160px;
-  height:            40px;
-  float:             left;
-  top:               20px;
-  left:              245px;
+  
   color:             #6200EA;
   background:        #FFFFFF 0% 0% no-repeat padding-box;
   border:            2px solid #FFFFFF;
@@ -88,11 +91,18 @@ header {
   margin-top:        1.25rem;
   margin-bottom:     1.25rem;
   margin-left:       15rem;
+  top:               20px;
+  left:              245px;
+  width:             160px;
+  height:            40px;  
 }
 
-
-.logo {
-  justify-content:     center;
+svg {
+top:              15px;
+left:             710px;
+width: 180px;
+height: 50px;
+opacity: 1;
 }
 
 
@@ -105,40 +115,49 @@ a {
   color:              #211138;
   font-size:          12px;
   font-family:        "Montserrat", sans-serif;
-  background-color:   #FFFFFF;
+  
   
 }
 
 nav {
-  padding:         1rem;
-  display:         flex;
-  justify-content: space-around;
-  font-weight:     bold;
+  padding:            1rem;
+  justify-content:    space-around;
+  font-weight:        bold;
+  background-color:   #FFFFFF;
+  height:             80px;
+  display:            flex;
+  align-items:     center;
 }
 
 
 
 /************\
-    sidebar
+    sidebar elhelyezése a jobb oldalon
 \************/
-
-.content {
-  display:            flex;
-  align-items:        flex-start; 
-}
 
 
 .section {
-    flex-direction:    column;
-    order: 2;
+    
+    
+    display: flex;
+    flex-direction: column;
+    order:        2;
   }
 
 
+/************\
+    sidebar 
+\************/
+
 .aside {
-    background-color:   #FFFFFF; 
-    width:              21.875rem;
-  
-}
+  background-color:   #FFFFFF; 
+  width:              21.875rem;
+  height:               37.5rem;
+  border:              1px solid transparent;
+  border-radius:        50px;
+  margin-bottom:        2.125rem;
+  margin-top:          1.5rem;
+ }
   
 
 h2 {
@@ -147,20 +166,43 @@ h2 {
   padding:             1rem;
   border-radius:       20px 20px 0 0;
   width:               100%;
-}
+  text-align:          center;
+  font-weight:         bold;
+ }
+
+
+ .container {
+  width:   19rem;
+  height:  10rem;
+  
+  
+ }
 
 
 .side {
   width:         120px;
   height:        120px;
+  float:         left;
+  margin:        1.125rem;
+  display:       block;
+  border-radius: 10px;
+ }
+
+
+ 
+
+h3 {
+  color:      #6200EA;
+  text-transform: uppercase;
+  padding:    1.5rem;
+  /*margin:  1rem;*/
+  font-weight:  bold;
 }
 
-.szov {
-  line-height:    1rem;
+
+.view {
+  text-align:   center;
 }
-
-
-
 
 
 
@@ -170,11 +212,155 @@ h2 {
 \************/
 
 main {
-  flex: 1;
+  flex:                      1;
+  width:                     730px;
+  border-radius:            24px;
+}
+
+
+
+
+/************\
+featured blog
+\************/
+
+.featured-blog {
+  background:               url('roberto-nickson-5ui0tfMC5ts-unsplash.jpg');
+  background-size:          cover;
+  height:                   350px;
+  line-height:              1.5rem;
+  border-radius:           24px;
+  margin-top:         1rem;
+}
+
+.date-, .focim-, .featured-text   {
+  color:       #FFFFFF;
+  text-transform:   uppercase;
+}
+
+.featured {
+  color:       #FFFFFF;
+  border-color:  #FFFFFF;
   
 }
 
-.featured-blog {
-  background: url('roberto-nickson-5ui0tfMC5ts-unsplash.jpg') no-repeat;
-  background-size: cover;
+.focim- {
+  font-size:    40px;
+  font-weight:  bold;
+  padding:     1.5rem;
 }
+
+.date- {
+  font-size: 12px;
+}
+
+/************\
+   buttons
+\************/
+
+.btn {
+  border-radius:   80px;
+  text-transform: uppercase;
+  padding:  .5rem;
+  width:     160px;
+  height:    40px;
+  letter-spacing:   .125rem;
+  background-color:  transparent; 
+  margin-top:    1rem;
+}
+
+.basic {
+  color:   #6200EA;
+  border-color:   #6200EA;
+ 
+}
+
+
+/************\
+   Posts
+\************/
+
+.post {
+  width:       710px;
+  padding:    1.75rem;
+  border-radius:  24px;
+  background-color:  #FFFFFF;
+  margin-bottom:    1.125rem;
+  line-height:   2.25rem;
+  margin-top:   1.125rem;
+}
+
+.text, .focim {
+  color:     #211138
+}
+
+.date {
+  color:     #B2ACBA;
+  padding:   1.125rem;
+  text-transform:  uppercase;
+  font-size:    12px;
+}
+
+.img {
+  width:    710px;
+  height:   320px;
+  margin-left: -28px;
+  margin-top:   -25px;
+  border-radius: 24px 24px 0 0;
+}
+
+.text {
+   font-size: 20px;
+}
+.focim {
+  font-size:    40px;
+  padding-bottom: 1.125rem;
+}
+
+/************\
+   small posts
+\************/
+
+.vertical-post {
+max-height:  160px;
+display:  flex;
+flex-direction: column;
+flex-wrap:    wrap;
+}
+
+
+.smallpost {
+  display:  block;
+  width:    340px;
+  height:   160px;
+  margin-bottom: 2rem;
+  background-color:  #FFFFFF;
+  border-radius: 24px;
+  margin-right:  1.125rem;
+  
+}
+.bal {
+  order: 2;
+}
+/************\
+  footer
+\************/
+
+footer {
+  padding:   3rem;
+  background-color: #211138;
+}
+
+.footer {
+  color: #B2ACBA;
+  text-align: center;
+}
+
+em {
+  color: #6200EA;
+}
+
+
+
+
+
