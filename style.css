@@ -1,3 +1,11 @@
+
+
+
+
+
+
+
+
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -43,6 +51,13 @@ table {
 }
 
 
+
+
+
+
+
+
+
 /************\
   Basic set
 \************/
@@ -69,11 +84,18 @@ body {
 
 
 
+
+
+
+
+
+
 /************\
    Heaeder
 \************/
 
 header {
+
   background-color:    #6200EA;
   width:               100%;
   padding-top:         1.25rem;
@@ -82,7 +104,7 @@ header {
 
 
 .subscribe {
-  
+
   color:             #6200EA;
   background:        #FFFFFF 0% 0% no-repeat padding-box;
   border:            2px solid #FFFFFF;
@@ -98,12 +120,19 @@ header {
 }
 
 svg {
-top:              15px;
-left:             710px;
-width: 180px;
-height: 50px;
-opacity: 1;
+
+top:                15px;
+left:               710px;
+width:              180px;
+height:             50px;
+opacity:            1;
 }
+
+
+
+
+
+
 
 
 /************\
@@ -111,23 +140,28 @@ opacity: 1;
 \************/
 
 a {
+
   text-decoration:    none;
   color:              #211138;
   font-size:          12px;
   font-family:        "Montserrat", sans-serif;
-  
-  
 }
 
 nav {
+
   padding:            1rem;
   justify-content:    space-around;
   font-weight:        bold;
   background-color:   #FFFFFF;
   height:             80px;
   display:            flex;
-  align-items:     center;
+  align-items:        center;
 }
+
+
+
+
+
 
 
 
@@ -137,12 +171,16 @@ nav {
 
 
 .section {
-    
-    
-    display: flex;
-    flex-direction: column;
-    order:        2;
+
+    display:         flex;
+    flex-direction:  column;
+    order:           2;
   }
+
+
+
+
+
 
 
 /************\
@@ -150,6 +188,7 @@ nav {
 \************/
 
 .aside {
+
   background-color:   #FFFFFF; 
   width:              21.875rem;
   height:               37.5rem;
@@ -161,6 +200,7 @@ nav {
   
 
 h2 {
+
   background-color:    #6200EA;
   color:               white;
   padding:             1rem;
@@ -172,14 +212,14 @@ h2 {
 
 
  .container {
-  width:   19rem;
-  height:  10rem;
-  
-  
+
+  width:               19rem;
+  height:              10rem;
  }
 
 
 .side {
+
   width:         120px;
   height:        120px;
   float:         left;
@@ -189,20 +229,23 @@ h2 {
  }
 
 
- 
 
 h3 {
-  color:      #6200EA;
-  text-transform: uppercase;
-  padding:    1.5rem;
+
+  color:             #6200EA;
+  text-transform:    uppercase;
+  padding:           1.5rem;
   /*margin:  1rem;*/
-  font-weight:  bold;
+  font-weight:       bold;
 }
 
 
 .view {
-  text-align:   center;
+
+  text-align:        center;
 }
+
+
 
 
 
@@ -212,10 +255,12 @@ h3 {
 \************/
 
 main {
+
   flex:                      1;
   width:                     730px;
-  border-radius:            24px;
+  border-radius:             24px;
 }
+
 
 
 
@@ -225,55 +270,73 @@ featured blog
 \************/
 
 .featured-blog {
+
   background:               url('roberto-nickson-5ui0tfMC5ts-unsplash.jpg');
   background-size:          cover;
   height:                   350px;
   line-height:              1.5rem;
-  border-radius:           24px;
-  margin-top:         1rem;
+  border-radius:            24px;
+  margin-top:               1rem;
 }
+
 
 .date-, .focim-, .featured-text   {
-  color:       #FFFFFF;
-  text-transform:   uppercase;
+
+  color:                  #FFFFFF;
+  text-transform:         uppercase;
 }
+
 
 .featured {
-  color:       #FFFFFF;
-  border-color:  #FFFFFF;
-  
+
+  color:                  #FFFFFF;
+  border-color:           #FFFFFF;
 }
+
 
 .focim- {
-  font-size:    40px;
-  font-weight:  bold;
-  padding:     1.5rem;
+
+  font-size:                40px;
+  font-weight:              bold;
+  padding:                  1.5rem;
 }
 
+
 .date- {
-  font-size: 12px;
+
+  font-size:                12px;
 }
+
+
+
+
+
 
 /************\
    buttons
 \************/
 
 .btn {
-  border-radius:   80px;
-  text-transform: uppercase;
-  padding:  .5rem;
-  width:     160px;
-  height:    40px;
-  letter-spacing:   .125rem;
-  background-color:  transparent; 
-  margin-top:    1rem;
+
+  border-radius:         80px;
+  text-transform:        uppercase;
+  padding:               .5rem;
+  width:                 160px;
+  height:                40px;
+  letter-spacing:        .125rem;
+  background-color:      transparent; 
+  margin-top:            1rem;
 }
 
+
 .basic {
-  color:   #6200EA;
-  border-color:   #6200EA;
- 
+
+  color:                #6200EA;
+  border-color:         #6200EA;
 }
+
+
+
 
 
 /************\
@@ -281,83 +344,114 @@ featured blog
 \************/
 
 .post {
-  width:       710px;
-  padding:    1.75rem;
-  border-radius:  24px;
-  background-color:  #FFFFFF;
-  margin-bottom:    1.125rem;
-  line-height:   2.25rem;
-  margin-top:   1.125rem;
+
+  width:                710px;
+  padding:              1.75rem;
+  border-radius:        24px;
+  background-color:     #FFFFFF;
+  margin-bottom:        1.125rem;
+  line-height:          2.25rem;
+  margin-top:           1.125rem;
 }
+
 
 .text, .focim {
-  color:     #211138
+
+  color:                #211138;
 }
+
 
 .date {
-  color:     #B2ACBA;
-  padding:   1.125rem;
-  text-transform:  uppercase;
-  font-size:    12px;
+
+  color:                 #B2ACBA;
+  padding:               1.125rem;
+  text-transform:        uppercase;
+  font-size:             12px;
 }
+
 
 .img {
-  width:    710px;
-  height:   320px;
-  margin-left: -28px;
-  margin-top:   -25px;
-  border-radius: 24px 24px 0 0;
+
+  width:                  710px;
+  height:                 320px;
+  margin-left:            -28px;
+  margin-top:             -25px;
+  border-radius:          24px 24px 0 0;
 }
 
+
 .text {
-   font-size: 20px;
+
+   font-size:             20px;
 }
+
+
 .focim {
-  font-size:    40px;
-  padding-bottom: 1.125rem;
+
+  font-size:              40px;
+  padding-bottom:         1.125rem;
 }
+
+
+
+
+
 
 /************\
    small posts
 \************/
 
 .vertical-post {
-max-height:  160px;
-display:  flex;
-flex-direction: column;
-flex-wrap:    wrap;
+
+max-height:              160px;
+display:                 flex;
+flex-direction:          column;
+flex-wrap:               wrap;
 }
 
 
 .smallpost {
-  display:  block;
-  width:    340px;
-  height:   160px;
-  margin-bottom: 2rem;
-  background-color:  #FFFFFF;
-  border-radius: 24px;
-  margin-right:  1.125rem;
-  
+
+  display:               block;
+  width:                 340px;
+  height:                160px;
+  margin-bottom:         2rem;
+  background-color:       #FFFFFF;
+  border-radius:         24px;
+  margin-right:          1.125rem;
 }
+
+
 .bal {
-  order: 2;
+
+  order:                  2;
 }
+
+
+
+
+
 /************\
   footer
 \************/
 
 footer {
-  padding:   3rem;
-  background-color: #211138;
+
+  padding:                3rem;
+  background-color:     #211138;
 }
+
 
 .footer {
-  color: #B2ACBA;
-  text-align: center;
+
+  color:               #B2ACBA;
+  text-align:            center;
 }
 
+
 em {
-  color: #6200EA;
+
+  color:               #6200EA;
 }
 
 
