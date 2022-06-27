@@ -1,0 +1,334 @@
+/************\
+    Reset
+\************/
+
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+
+
+
+
+/************\
+  Basic set
+\************/
+* {
+   
+    box-sizing:        border-box;
+}
+
+body {
+
+  background-color:   #F4F3F5;
+  font-family:        "Montserrat", sans-serif;
+  width:              1600px;
+  height:             900px;
+}
+
+main {
+
+    margin-left:               15rem;
+    margin-right:              15rem;
+    display:                   flex;
+    flex-direction:            column;
+    height:                    720px;
+    flex-wrap:                 wrap;
+    align-items:               flex-start;
+}
+
+
+
+
+
+
+/************\
+  Header
+\************/
+header {
+
+    background-color:    #6200EA;
+    width:               100%;
+    padding-top:         1.25rem;
+    padding-bottom:      1.25rem;
+    display:            flex;
+  }
+
+  .logo {
+    
+    margin-left:      5rem;
+  }
+
+
+  /************\
+     Nav
+\************/
+.nav {
+
+  text-decoration:    none;
+  font-size:          12px;
+  font-family:        "Montserrat", sans-serif;
+  top:                33px;
+  left:               922px;
+  width:              47px;
+  height:             15px;
+  font:               normal normal bold 12px/15px Montserrat;
+  letter-spacing:     2.4px;
+  color:            #F4F3F5;
+  text-transform:     uppercase;
+  opacity:            0.65;
+  margin-left:        14rem;
+}
+
+nav {
+
+  padding:            1rem;
+  justify-content:    space-around;
+  font-weight:        bold;
+  background-color:   #6200EA;
+  height:             80px;
+  display:            flex;
+  align-items:        center;
+}
+
+
+
+
+/************\
+contact contents
+\************/
+
+
+.write {
+
+    display:           flex;
+    flex-direction:    column;
+    order:             2;
+    background-color: #FFFFFF;
+    width:             540px;
+    height:            640px;
+    padding:           3.75rem;
+    flex:              1;
+    padding-top:       3.75rem;
+    margin-top:        2.5rem;
+    
+}
+
+
+/************\
+map, datas
+\************/
+
+.available {
+
+  margin-top:           2.5rem;
+    flex:               1;
+    width:              730px;
+    border-radius:      24px;
+   background-color:    #FFFFFF;
+   width:               540px; 
+   height:              640px;
+   padding:             3.75rem;
+   order:               1;
+   line-height:         1.5rem;
+}
+
+
+.text {
+
+    padding-top:        1.5rem;
+    padding-bottom:     2rem;
+    text-align:         left;
+    line-height:        1.25rem;
+    display:            inline;
+}
+
+
+.icons {
+
+    color:            #211138;
+}
+
+
+.phone {
+
+    padding-top:      1.75rem;
+}
+
+
+/************\
+  email, phone 
+\************/
+
+.phone, .email, .icons, h4 {
+
+    text-decoration:    none;
+    color:              #6200EA;
+    font-size:          12px;
+    text-align:         left;
+    text-transform:     uppercase;
+    font-weight:         bold;
+    line-height:         1.5rem;
+}
+
+.text--small {
+
+    font-size:          14px;
+    padding-top:         1rem;
+    padding-bottom:      1.5rem;
+}
+
+
+
+
+
+
+
+
+/************\
+Contact side
+\************/
+
+h1 {
+
+    font-size:          40px;
+    font-weight:        bold;
+
+}
+
+h2 {
+
+top:                    240px;
+left:                   875px;
+width:                  420px;
+height:                 90px;
+text-align:             left;
+font:                   normal normal normal 20px/30px Montserrat;
+letter-spacing:          0px;
+color:                 #211138;
+opacity:                 1;
+}
+
+/************\
+input
+\************/
+
+.input {
+
+    height:              50px;
+    width:               420px;
+    padding:             1rem;
+    margin:              1rem;
+    background-color:   #F4F3F5;
+    border:             0;
+    top:                350px;
+    left:               875px;
+    width:              420px;
+    height:             50px;
+    display:            block;
+    
+}
+
+.input:hover, #message:hover {
+
+    border-bottom:      3px solid #6200EA;
+    color:            grey;
+    transition:         all .3s linear;
+    
+}
+
+#message {
+
+    padding:            1rem;
+    margin:             1rem;
+    background-color: #F4F3F5;
+    border:             0;
+    color:            grey;
+}
+
+/************\
+  button
+\************/
+button {
+
+top:                  650px;
+left:                 875px;
+width:                420px;
+height:               50px;
+background:         #6200EA 0% 0% no-repeat padding-box;
+border:               2px solid #6200EA;
+border-radius:        24px;
+opacity:               1;
+text-align:           center;
+font:                 normal normal bold 12px/15px Montserrat;
+letter-spacing:       2.4px;
+color:              #FFFFFF;
+text-transform:       uppercase;
+}
+
+
+
+/************\
+  footer
+\************/
+
+footer {
+
+    padding:                3rem;
+    background-color:     #211138;
+  }
+  
+  
+  .footer {
+  
+    color:               #B2ACBA;
+    text-align:            center;
+  }
+  
+  
+  em {
+  
+    color:               #6200EA;
+  }
