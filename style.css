@@ -158,8 +158,14 @@ nav {
   align-items:        center;
 }
 
-
-
+/************\
+     Nav hover
+\************/
+a:hover {
+  
+  border-bottom: 5px solid #6200EA;
+  padding: 1.75rem;
+}
 
 
 
