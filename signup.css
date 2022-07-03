@@ -1,0 +1,278 @@
+
+
+
+
+/************\
+    Reset
+\************/
+
+
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+
+
+
+/************\
+    basic
+\************/
+
+body {
+
+    width:          1600px;
+    height:         900px;
+    font-family:    'Montserrat', sans-serif;
+    text-transform: uppercase;
+
+}
+
+
+* {
+
+    box-sizing:     border-box;
+
+}
+
+
+main {
+
+    display:        flex;
+    flex-direction: column;
+    flex-wrap:      wrap;
+    height:         800px;
+
+}
+
+
+section {
+
+    flex:           1;
+    display:        flex;
+    align-items:    flex-start;
+
+}
+
+
+
+
+
+/************\
+    left side
+\************/
+
+
+.leftside-text  {
+
+    width:              800px;
+    height:             800px;
+    background-color:  #6200EA;
+    flex:               1;
+
+}
+
+
+.big-texts  {
+
+    margin-top:         14.375rem;
+    margin-bottom:      14.375rem;
+    margin-left:        8.125rem;
+    margin-right:       8-125rem;
+    line-height:        5rem;
+
+}
+
+
+
+.big-text {
+
+    font-size:          30px;
+    color:              white;
+    position:           relative;
+    font-weight:        bold;
+
+}
+
+
+.fa-solid {
+
+    float:              left;
+    margin-right:       1.125rem;
+    margin-top:         1rem;
+    border:             2px solid white;
+    border-radius:      100%;
+    background-color:   white;
+    color:              #6200EA;
+    font-size:          1.125rem;
+    padding:            .5rem;
+
+}
+
+
+
+
+
+/************\
+    rightside
+\************/
+
+
+.rightside-content {
+
+    background: url('https://cdn.pixabay.com/photo/2019/08/30/08/55/rain-4440791_960_720.jpg') no-repeat;
+    background-size: cover;
+    width: 800px;
+    height: 800px;
+    order:2; 
+
+}
+
+
+.rightside-content--container {
+
+    width: 540px;
+    height: 540px;
+    background-color: #FFFFFF;
+    margin: 130px;
+    border-radius: 24px;
+    padding: 3.75rem;
+
+}
+
+
+h2 {
+
+    font-size: 40px;
+    color: #211138;
+    font-weight: bold;
+    padding-bottom: 2rem;
+    text-transform: none;
+
+}
+
+
+input {
+
+    width: 420px;
+    height: 50px;
+    margin-bottom: 1rem;
+    background-color: #F4F3F5;
+    color: #211138;
+    border: none;
+    
+}
+
+
+
+
+/************\
+    button
+\************/
+
+
+.small-btn {
+
+    float: right;
+    color: #6200EA;
+    font-size: 12px;
+    border: none;
+    background-color: #FFFFFF;
+    font-weight: bold;
+ 
+}
+
+
+.btn {
+
+    border-radius: 24px;
+    width: 420px;
+    height: 50px;
+    margin-bottom: 1rem;
+
+}
+
+.btn-signup {
+
+    margin-top: 2rem;
+    color: #FFFFFF;
+    background-color: #6200EA;
+    border: 1px solid #6200EA;
+
+}
+
+
+.btn-login {
+
+    color: #6200EA;
+    background-color: #FFFFFF;
+    border: 1px solid #6200EA;
+
+}
+
+
+
+/************\
+    footer
+\************/
+
+footer {
+
+    padding:                3rem;
+    background-color:     #211138;
+    height:     calc(100vh-100px);
+  }
+  
+  
+  .footer {
+  
+    color:               #B2ACBA;
+    text-align:            center;
+  }
+  
+  
+  em {
+  
+    color:               #6200EA;
+  }
