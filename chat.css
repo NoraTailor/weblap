@@ -1,0 +1,453 @@
+/************\
+    Reset
+\************/
+
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+
+
+
+
+
+/************\
+    basic
+\************/
+
+* {
+
+	box-sizing: 		border-box;
+
+}
+
+
+body {
+
+	width: 				1600px;
+	height: 			900px;
+	font-family: 		'Montserrat', sans-serif;
+
+}
+
+
+main {
+
+	display: 			flex;
+	flex-direction: 	column;
+	height: 			900px;
+	flex-wrap: 			wrap;
+
+}
+
+
+
+
+
+/************\
+    right-side search bar
+\************/
+
+.search-bar {
+
+	width: 				370px;
+	height: 			50px;
+	margin: 			1rem;
+
+}
+
+.search-bar--btn {
+
+	float: 				right;
+	font-size: 			20px;
+	border: 			none;
+	background-color: #F4F3F5;
+	position: 			relative;
+	margin-top: 		-35px;
+	margin-right: 		5px;
+
+}
+
+.search-input {
+
+	width: 				370px;
+	height: 			50px;
+	background-color: #F4F3F5;
+	border: 			none;
+
+}
+
+
+
+
+
+/************\
+	pictures sizes
+\************/
+
+img {
+
+	border: 			none;
+	border-radius: 		100%;
+	width: 				50px;
+	height: 			50px;
+
+}
+
+
+
+
+/************\
+	left-side messages
+\************/
+
+
+.potentional-chatpart {
+
+	width: 				400px;
+	height: 			80px;
+	padding: 			1rem;
+
+}
+
+
+.left-side-pic {
+
+	float: 				left;
+
+}
+
+
+.potentional-chatpart:hover {
+
+	border-left: 		5px solid #6200EA;
+	transition: 		all .1s linear;
+	
+}
+
+
+
+/************\
+	left-side messages- text 
+\************/
+
+
+h3 {
+
+	font-size: 			12px;
+	color: 				#6200EA;
+	text-transform: 	uppercase;
+	letter-spacing: 	2.4px;
+	line-height: 		1rem;
+	padding-left: 		80px;
+	font-weight: 		bold;
+
+}
+
+
+h4 {
+
+	font-size: 			14px;
+	color: 				#211138;
+	line-height: 		20px;
+
+}
+
+
+.chatpar--short-messages {
+
+	overflow: 			hidden;
+	width: 				350px;
+	height: 			20px;
+	float: 				right;
+	margin-top: 		-30px;
+	padding-left: 		62px;
+
+}
+
+
+
+
+
+/************\
+	left-side button
+\************/
+
+.btn-new-contact {
+
+	width: 				370px;
+	height: 			50px;
+	margin-bottom: 		17.2rem;
+	border-radius: 		24px;
+	border: 			3px solid #6200EA;
+	color: 				#6200EA;
+	background-color: 	#FFFFFF;
+	font-weight: 		bold;
+	text-transform: 	uppercase;
+	margin-top: 		1rem;
+
+}
+
+
+
+
+
+/************\
+	left-side header
+\************/
+
+
+header {
+
+	background-color: #6200EA;
+	width: 				1200px;
+	height: 			80px;
+
+}
+
+
+.logo {
+
+	margin-left: 		33.375rem;
+
+}
+
+
+.header-right {
+
+	float: 				right;
+	color: 				#FFFFFF;
+
+}
+
+
+h5 {
+
+	color:				#FFFFFF;
+	font-size: 			12px;
+	text-transform: 	uppercase;
+	float: 				left;
+	margin-top: 		20px;
+	margin-right: 		1rem;
+}
+
+
+.right-sided-pic {
+
+	margin-right: 		1rem;
+
+}
+
+
+h2 {
+
+	color: 			#FFFFFF;
+	text-transform: uppercase;
+	position: 		relative;
+	top: 			2rem;
+	left: 			2rem;
+}
+
+
+
+
+
+
+/************\
+	left-side chat surface already typed messages
+\************/
+
+
+.chat-part {
+
+	padding-top:		1.5rem;
+	padding-left: 		4rem;
+	padding-right: 		4rem;
+	background-color: lightgrey;
+	height: 			680px;
+	display: 			flex;
+	flex-direction: 	column;
+
+}
+
+
+p, time {
+
+	font-size: 			12px;
+	color: 				#B2ACBA;
+	text-transform: 	uppercase;
+	text-shadow: 		2px 2px black;
+
+}
+
+
+time {
+
+	margin-left: 		90%;
+
+}
+
+
+.woman-chat--left-pic {
+
+	float: 				left;
+
+}
+
+
+.chat-left {
+
+	margin: 			.5rem;
+	background-color: #FFFFFF;
+	border-radius: 		0px 15px 15px 15px;
+	max-width: 			600px;
+	margin-left: 		70px;
+	padding: 			1rem;
+
+}
+
+
+
+.man-answer--right-pic {
+
+	float: 				right;
+	margin-top:			2rem;
+	
+}
+
+.chat-right {
+
+	margin: 			1.5rem;
+	background-color: #B2ACBA;
+	border-radius: 		15px 15px 0px 15px;
+	max-width: 			400px;
+	margin-left: 		70px;
+	padding: 			1rem;
+	float: 				right;
+	position: 			relative;
+
+}
+
+
+.man-answer-nopic {
+
+	margin-right: 		4rem;
+	
+}
+
+
+
+
+
+/************\
+	textarea
+\************/
+
+.writing-part {
+
+	width: 				1200px;
+	height: 			140px;
+	background-color: #FFFFFF;
+	position: 			relative;
+	display: 			flex;
+	flex-direction: 	row;
+}
+
+
+.typing-surface {
+	position: 			relative;
+	flex: 				1;
+}
+
+
+.textarea {
+
+	width:					1060px;
+	height: 				100px;
+	margin-left: 			1.125rem;
+	margin-top: 			1.125rem;
+	border: 				none;
+	background-color: 		#F4F3F5;
+	padding: 				1rem;
+	text-transform: 		uppercase;
+
+}
+
+
+
+.fa-paperclip, .fa-face-smile {
+
+	font-size: 				20px;
+	color: 					#211138;
+	position: 				relative;
+	float: 					right;
+	bottom: 				100px;
+	padding: 				.5rem;
+
+}
+
+
+.fa-paper-plane {
+
+	background-color: 	#6200EA;
+	border-radius: 		100%;
+	padding: 			1rem;
+	color: 				#FFFFFF;
+
+}
+
+
+.btn-send {
+
+	order: 					2;
+	width: 					50px;
+	height: 				50px;
+	position: 				relative;
+	margin-right: 			5rem;
+	border: 				none;
+	background-color: 		#FFFFFF;
+	margin-top: 			1rem;
+
+}
